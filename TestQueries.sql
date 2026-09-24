@@ -15,3 +15,9 @@ WHERE AccountStatus = 'Active';
 SELECT *
 FROM dbo.BankDetails
 WHERE AccountType = 'Savings';
+
+
+
+SELECT *
+FROM dbo.BankDetails
+WHERE AccountType = 'current';
